@@ -1,7 +1,7 @@
-.parallax{
+.parallax-1{
   background: url(../imgs/black-and-white-business-chart-computer-241544.jpg);
   /* Full height */
-  height: 150%;
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -9,10 +9,16 @@
 
   background-repeat: no-repeat;
   background-size: cover;
-  .container{
-    background: #fff;
-    opacity: 0.7;
-    padding 20px 30px 30px 30px;
+}
+.parallax-2{
+  background: url(../imgs/space-grey-ipad-air-with-graph-on-brown-wooden-table-187041.jpg);
+  /* Full height */
+  height: 100%;
 
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
