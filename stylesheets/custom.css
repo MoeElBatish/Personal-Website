@@ -1,8 +1,18 @@
 .parallax{
   background: url(../imgs/black-and-white-business-chart-computer-241544.jpg);
-  height: 100%;
+  /* Full height */
+  height: 150%;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
+
   background-repeat: no-repeat;
   background-size: cover;
+  .container{
+    background: #fff;
+    opacity: 0.7;
+    padding 20px 30px 30px 30px;
+
+  }
 }
