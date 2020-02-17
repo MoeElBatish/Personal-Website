@@ -4,10 +4,10 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def home(request):
-    return render(request, '../../index.html')
+    return render(request, 'Templates/index.html')
 def about(request):
-    return HttpResponse("about")
+    return render(request, 'Templates/about.html')
 def contact(request):
-    return HttpResponse("contact")
+    return render(request, 'Templates/contact.html')
 def blog(request):
-    return HttpResponse("blog")
+    return render(request, 'Templates/blog.html')
